@@ -6,5 +6,7 @@ Meteor.Router.add({
     and: function(id) {
       Session.set("currentPostId", id);
     }
-  }
+  },
+
+  "/submit": "postSubmit"
 });
