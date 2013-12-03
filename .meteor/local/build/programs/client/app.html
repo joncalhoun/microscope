@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html##HTML_ATTRIBUTES##>
+<head>
+  <link rel="stylesheet" href="##ROOT_URL_PATH_PREFIX##/packages/bootstrap/css/bootstrap.css?e5976308949024b827360231c67b6f50ee1cf8c5">
+  <link rel="stylesheet" href="##ROOT_URL_PATH_PREFIX##/packages/bootstrap/css/bootstrap-responsive.css?b66c9c5bfb9556bf343298e3fe6e49c39db8c222">
+  <link rel="stylesheet" href="##ROOT_URL_PATH_PREFIX##/packages/bootstrap/css/bootstrap-override.css?15fa5b55da5c16ed92ffe0c85c0d6aa0867b9c7f">
+  <link rel="stylesheet" href="##ROOT_URL_PATH_PREFIX##/packages/accounts-ui-bootstrap-dropdown/login_buttons_images.css?9f29802ea43b83a35ba6096af5e501ef4f81287f">
+  <link rel="stylesheet" href="##ROOT_URL_PATH_PREFIX##/client/stylesheets/style.css?e26a10741bd2a278c10fd2aa8adbd6381c0659c1">
+
+
+##RUNTIME_CONFIG##
+
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/underscore.js?13ab483e8a3c795d9991577e65e811cd0b827997"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/meteor.js?643bfdbf5382aa1986ff0dd3e6474d4a7e247bab"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/standard-app-packages.js?be7072e6abfda638502b63fa0f809c85c8c2b8ed"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/random.js?b763d607358d5f39ec7165df804da4c9509ba4e5"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/jquery.js?1a9d113f1f0c905a877e6eb3d97b07a871baa416"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/domutils.js?c5d4d4c5629038d1bb6deea7acd7a0512d406fe3"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/liverange.js?b3097d72d458e645fd4f0021c8ff5189abe8d98a"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/universal-events.js?5bfa39513d2caa4af4f829d7f4907afae3601adf"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/deps.js?5ac28feec1f3e0539889ecde598dd9d01e408b41"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/json.js?e22856eae714c681199eabc5c0710b904b125554"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/ejson.js?6b96257c000bbb949b0e65eaacceeecba5bf84c6"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/minimongo.js?65b4ee0e4ba2a5ca4254709cb52b6f667a848d7b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/spark.js?3a050592ceb34d6c585c70f1df11e353610be0ab"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/preserve-inputs.js?7b3b8bf0669f1f110126607ecd8488f719344f09"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/bootstrap.js?86f8f0d5d5a274fd05c4a35c7a7dddb771ce2a0e"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/startup.js?b11a8ec83d1e6394d47a024ab7175979e4e5834e"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/handlebars.js?c2b75d49875b4cfcc7544447aad117fd81fccf3b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/templating.js?5944cd5e16b26fbf83959a0fe92d7754029a624d"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/page-js-ie-support.js?eb95012d4c01dbb6793ca50e92b2b25f095e950c"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/router.js?fa973c1aa0f406a9ff2a8ef2745961b9500ea0f5"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/logging.js?e3df5be1604658260b4000a031f1a7b969cb6133"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/check.js?a54cf3c7b3abe9208d064621eb80a3ecaf2f4add"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/reload.js?8495281f1e90298939d33611f64cb97609664269"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/livedata.js?dab0057c9e7c90bcd874be39d89b9cd54637979b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/application-configuration.js?d035285fe78d9556cb9a784c73aa129d88bc386b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/mongo-livedata.js?2f66d8591aa3225badaf5a98bfba28287bff3a3d"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/service-configuration.js?65f9d7f8c45ecc9be55a58180bf579558581a9dc"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/localstorage.js?66e8e87ffe90dfe2f3f14d2f450a49ac7a33c5b8"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/accounts-base.js?9b3a1d13cc49c66883244e6606e87287d370918f"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/reactive-dict.js?22667928acc72f619ce81e7ac1e35def1ba9e0ae"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/session.js?5bcd2d86431dc10d5f4be0910cb6567342e1aaf6"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/srp.js?b67965acbe0e0f66edcf4df1e5d061dadedd4216"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/accounts-password.js?7194b16ddb1435bc72cb2308aab74d326cf082ff"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/accounts-ui-bootstrap-dropdown.js?83cf84f6a56b5353b5cf17293c5c63acedc6ac4d"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/spin.js?d0669fea4b1c6d6326ca78a2e4a715488fe5bb5b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/webapp.js?5c7d940d9baab5b893f7e5904e7258ef69e7ef8b"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/packages/global-imports.js?2e85f75dd820d57bf6686ea42e917bd416af17b6"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/template.access_denied.js?7117218737e96f3ddcec55eef1d2cdd34260f39d"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/template.header.js?dcccc8456a2cc98f6a184b93ba03033855daf3e7"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/includes/template.loading.js?6a2f20c91b63ef2820ac5b7d20954f6ad5119ee0"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/posts/template.post_item.js?db214346208ee3cd91552aa635f9cfb6378025a0"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/posts/template.post_page.js?05ff778f71527ec1776f152a08d60c06a8b7b931"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/posts/template.post_submit.js?3a99a8c3415173db7faff8c30a2da71bf088fd83"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/posts/template.posts_list.js?d9c2f00288536e712d92feaeea2c6d16721dbfa3"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/template.main.js?9f8535bfd9c87a46cca244f27ccdd74972317844"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/posts/post_item.js?694e12ff5efa8732dc4f71b0c7db0679c17b3766"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/posts/post_page.js?3312b3dbefe175a351af15cb47aa687e5b27b46e"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/posts/post_submit.js?34be04b56c994f3641449cc2817bd59f5fe03bdb"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/views/posts/posts_list.js?95c048c5848a69e9d375f33e4310501b31505433"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/helpers/config.js?9039d1c29a1d5a558ef3718c715ff75ab23f27b2"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/helpers/router.js?bbba871a6668227c00a07941b24f7356826b0ffe"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/collections/posts.js?5151bfa9f6e1438b218ca8524e83c3d30d1def6d"></script>
+  <script type="text/javascript" src="##ROOT_URL_PATH_PREFIX##/client/main.js?34d5e25bc2fedb2b3ee5dd15718b7487652e39e4"></script>
+
+
+<title>Microscope</title>
+</head>
+<body>
+
+</body>
+</html>
